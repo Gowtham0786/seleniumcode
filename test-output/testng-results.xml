@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25110" started-at="2022-01-11T23:32:34Z" finished-at="2022-01-11T23:32:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25110" started-at="2022-01-11T23:32:34Z" finished-at="2022-01-11T23:32:59Z">
+      <class name="com.sauce.test.GoogleSearch.SearchApplication">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sauce.test.GoogleSearch.SearchApplication@19dfb72a]" name="setUp" is-config="true" duration-ms="30" started-at="2022-01-12T05:02:34Z" finished-at="2022-01-12T05:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.sauce.test.GoogleSearch.SearchApplication@19dfb72a]" name="startReport" is-config="true" duration-ms="246" started-at="2022-01-12T05:02:34Z" finished-at="2022-01-12T05:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="testScenario1()[pri:0, instance:com.sauce.test.GoogleSearch.SearchApplication@19dfb72a]" name="testScenario1" duration-ms="24844" started-at="2022-01-12T05:02:34Z" finished-at="2022-01-12T05:02:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sauce.test.GoogleSearch.SearchApplication@19dfb72a]" name="getResult" is-config="true" duration-ms="6" started-at="2022-01-12T05:02:59Z" finished-at="2022-01-12T05:02:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testScenario1 status=SUCCESS method=SearchApplication.testScenario1()[pri:0, instance:com.sauce.test.GoogleSearch.SearchApplication@19dfb72a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sauce.test.GoogleSearch.SearchApplication@19dfb72a]" name="tearDown" is-config="true" duration-ms="349" started-at="2022-01-12T05:02:59Z" finished-at="2022-01-12T05:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauce.test.GoogleSearch.SearchApplication -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
